@@ -1,32 +1,33 @@
 # About
 
-This is my blog based on jekyll. And I change the style and interactive. If you want to use this model of the blog. **Please give a star at this repository**. Then you can clone it as your blog model.
-
-You can visit [here](http://gaohaoyang.github.io) to see this blog.
+> 2017年新晋码农,期望通过写博客的方式巩固学习的知识,也希望自己的学习,能够为他人带来一些便利
 
 ---
 
-这是我的博客，基于 jekyll。我改了所有默认的样式和交互。如果你想使用这个博客模板。**请先在这个仓库上点个star吧**，这也是对我的肯定和鼓励，谢谢了。然后你可以克隆这个仓库用作你自己的博客。
+### 联系我
 
-博客访问地址：[点击这里](http://gaohaoyang.github.io)
+* email：[18669893982@163.com](mailto:{{ site.email }})
+* QQ：1165588519
 
-**使用时请注明模板来源:  Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
+---
 
-<!--
-
-## 被引用信息
-
-使用了我的模板并写明来源的人：   
-
-* [dreamholy](http://dreamholy.github.io/)
-
-没有注明来源的人：
-
-* [yangshuailing](http://yangshuailing.github.io/com/)
-* [huapu728](http://huapu728.github.io/)
-* [greatbuger](http://greatbuger.github.io/) 
+### 关于本站   
 
 
--->
+
+2017.03.13| 我的个人博客,内容随我的学习过程更新,希望能在这个过程中,与大家一起成长
+2017.03.14|
+
+---
+
+#### 友情链接
+
+[Gaohaoyang](https://github.com/Gaohaoyang)
+
+---
+
+感谢浩阳同学的模板  
+Designed by &copy; 2015 [Gaohaoyang](https://github.com/Gaohaoyang)
+
 
 
