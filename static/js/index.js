@@ -1,7 +1,7 @@
 /**
  * 页面ready方法
  */
-$(document).ready(function() {
+$(document).ready(function () {
 
     categoryDisplay();
     generateContent();
@@ -13,8 +13,8 @@ $(document).ready(function() {
  * {fixFooterInit();} 固定Footer栏
  */
 /*$(window).load(function() {
-    fixFooterInit();
-});*/
+ fixFooterInit();
+ });*/
 
 
 /**
@@ -30,13 +30,13 @@ function fixFooterInit() {
 
     fixFooter(footerHeight, footerMarginTop); //fix footer at the beginning
 
-    $(window).resize(function() { //when resize window, footer can auto get the postion
+    $(window).resize(function () { //when resize window, footer can auto get the postion
         fixFooter(footerHeight, footerMarginTop);
     });
 
     /*    $('body').click(function() {
-        fixFooter(footerHeight, footerMarginTop);
-    });*/
+     fixFooter(footerHeight, footerMarginTop);
+     });*/
 
 
 }
@@ -91,7 +91,7 @@ function categoryDisplay() {
     /*only show All*/
     $('.post-list-body>div[post-cate!=All]').hide();
     /*show category when click categories list*/
-    $('.categories-list-item').click(function() {
+    $('.categories-list-item').click(function () {
         var cate = $(this).attr('cate'); //get category's name
 
         $('.post-list-body>div[post-cate!=' + cate + ']').hide(250);
@@ -104,7 +104,7 @@ function categoryDisplay() {
  */
 function backToTop() {
     //滚页面才显示返回顶部
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if ($(window).scrollTop() > 100) {
             $("#top").fadeIn(500);
         } else {
@@ -112,14 +112,14 @@ function backToTop() {
         }
     });
     //点击回到顶部
-    $("#top").click(function() {
+    $("#top").click(function () {
         $("body").animate({
             scrollTop: "0"
         }, 500);
     });
 
     //初始化tip
-    $(function() {
+    $(function () {
         $('[data-toggle="tooltip"]').tooltip();
     });
 }
@@ -138,10 +138,9 @@ function generateContent() {
     } else {
         $('#content .content-text').html('<ul>' + $('#markdown-toc').html() + '</ul>');
         /*   //数据加载完成后，加固定边栏
-        $('#myAffix').attr({
-            'data-spy': 'affix',
-            'data-offset': '50'
-        });*/
+         $('#myAffix').attr({
+         'data-spy': 'affix',
+         'data-offset': '50'
+         });*/
     }
-    console.log("myAffix!!!");
 }
