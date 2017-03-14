@@ -424,6 +424,8 @@ blockquote:last-child {
 #content a:active {color: #99b}	/* 选定的链接 */
 
 #content{
+	position: fixed;
+	right: 6.8%;
 	max-width: 292px;
 }
 #content .content-text{
