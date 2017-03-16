@@ -23,7 +23,8 @@ icon: glyphicon-heart
 
 
 2017.03.13| 我的个人博客,内容随我的学习过程更新,希望能在这个过程中,与大家一起成长
-2017.03.14|
+2017.03.14| 初步写完 [Jenkins 入门](https://ohmybuuug.github.io/2017/03/13/jenkins/)
+2017.03.16| 初步写完 [Nexus 私服](https://ohmybuuug.github.io/2017/03/15/nexus/)
 
 ---
 
