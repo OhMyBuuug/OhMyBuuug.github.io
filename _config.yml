@@ -22,3 +22,4 @@ port: 2333
 # highlighter: pygments
 # highlighter: rouge
 # highlighter: false
+highlighter: true
